@@ -32,6 +32,8 @@ const toggleText = () => {
   display: flex;
   margin: 0 4px;
   flex: 1.5;
+  margin-bottom: 10px;
+
 
   .content-wrapper {
     margin: auto;
