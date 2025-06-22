@@ -1,0 +1,16 @@
+$primary: #0000ff; 
+$border: 1px solid;
+
+@mixin card($fill: gray) {
+  background: $fill;
+  border: none;
+  border-radius: 4px;
+  
+  &:hover {
+    background: lighten($fill, 10%); 
+  }
+}
+
+@function my-border($color) {
+  @return 2px solid $color;
+}
